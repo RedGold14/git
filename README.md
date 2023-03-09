@@ -1,5 +1,13 @@
 # git
 
+### initialize repository
+### configure repository
+### begin file tracking
+### stop file tracking
+### stage changes
+### commit changes
+### setup .gitignore
+
 - Branching
 
 -----------------------------------------------------------------------
