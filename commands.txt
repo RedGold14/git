@@ -1,0 +1,33 @@
+Initialize repository. Create a new subdirectory named .git that contains all of the necessary repository files:
+git init
+
+----------------------------------------------------------------------
+
+Add all files:
+git add .
+
+Add files by pattern:
+git add *.c
+
+Add file by name:
+git add <file-name>
+
+----------------------------------------------------------------------
+
+Commit with message:
+git commit -m "commit-message"
+
+----------------------------------------------------------------------
+
+Copy of existing repository:
+git clone <url>
+Git receives a full copy of nearly all data that the server has.
+
+git clone:
+- Creates a directory with specified name
+- Initializes a .git directory inside it
+- Pulls down all the data for that repository
+- Checks out a working copy of the latest version
+
+Clone the repository into other directory
+$ git clone <url> <directory-name>
